@@ -1,0 +1,157 @@
+VeriLogger Pro simulation log created at Thu Apr 27 02:45:37 2017
+Beginning Compile
+Beginning Phase I
+Compiling source file: C:\Users\Mostafa\Desktop\CAproject - Copy\tst.v
+Compiling source file: C:\Users\Mostafa\Desktop\CAproject - Copy\rf.v
+Compiling source file: C:\Users\Mostafa\Desktop\CAproject - Copy\MIPSprocessor.v
+Compiling source file: C:\Users\Mostafa\Desktop\CAproject - Copy\MEM.v
+Compiling source file: C:\Users\Mostafa\Desktop\CAproject - Copy\ALU.v
+Finished Phase I
+Entering Phase II...
+Finished Phase II
+Entering Phase III...
+Finished Phase III
+Highest level modules:   tst,    mux,    adder, 
+Finding handle to tst.clk
+Compile Complete
+.
+Running...
+data1.txt: L6: warning: Number of words read is not the number of words expected
+PC=00000000000000000000000000000000
+decode rs = xxxxx rt = xxxxx control = zzzzzzzzzz
+Executeb branchPC=xxxxx Extended=xxxxx         xx         x         x
+WB  PCsrc=x
+WB  writeData=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx writeRegister= x regWrite=x
+time=                   0 clk=1
+time=                 400 clk=0
+PC=00000000000000000000000000000100
+decode rs = xxxxx rt = xxxxx control = xxxxxxxxxx
+Executeb branchPC=zzzzz Extended=zzzzz         x0         x         X
+WB  PCsrc=x
+WB  writeData=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx writeRegister= z regWrite=z
+time=                 800 clk=1
+time=                1200 clk=0
+PC=00000000000000000000000000001000
+decode rs = 00000 rt = 10111 control = 0000000011
+Executeb branchPC=xxxxx Extended=xxxxx         x0         x         x
+WB  PCsrc=0
+WB  writeData=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx writeRegister= z regWrite=z
+time=                1600 clk=1
+time=                2000 clk=0
+PC=00000000000000000000000000001100
+decode rs = 00000 rt = 00000 control = 1000101001
+Executeb branchPC=00000 Extended=10111        320       132        32
+WB  PCsrc=0
+WB  writeData=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx writeRegister= x regWrite=z
+time=                2400 clk=1
+time=                2800 clk=0
+PC=00000000000000000000000000010000
+decode rs = 00000 rt = 00000 control = 1000101001
+Executeb branchPC=00000 Extended=00000         01         8         0
+WB  PCsrc=0
+WB  writeData=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx writeRegister= x regWrite=x
+time=                3200 clk=1
+time=                3600 clk=0
+PC=00000000000000000000000000010100
+decode rs = 00000 rt = 00000 control = 1000101001
+Executeb branchPC=00000 Extended=00000         01        12         0
+WB  PCsrc=0
+WB  writeData=00000000000000000000000000100000 writeRegister=23 regWrite=1
+time=                4000 clk=1
+time=                4400 clk=0
+PC=00000000000000000000000000011000
+decode rs = 00000 rt = 10111 control = 1000101001
+Executeb branchPC=00000 Extended=00000         01        16         0
+WB  PCsrc=0
+WB  writeData=00000000000000000000000000000000 writeRegister= 0 regWrite=1
+time=                4800 clk=1
+time=                5200 clk=0
+PC=00000000000000000000000000011100
+decode rs = xxxxx rt = xxxxx control = 1000101001
+Executeb branchPC=10111 Extended=10111       128042948941004294948992
+WB  PCsrc=0
+WB  writeData=00000000000000000000000000000000 writeRegister= 0 regWrite=1
+time=                5600 clk=1
+time=                6000 clk=0
+PC=00000000000000000000000000100000
+decode rs = xxxxx rt = xxxxx control = 1000101001
+Executeb branchPC=xxxxx Extended=xxxxx         x0         x         x
+WB  PCsrc=0
+WB  writeData=00000000000000000000000000000000 writeRegister= 0 regWrite=1
+time=                6400 clk=1
+time=                6800 clk=0
+PC=00000000000000000000000000100100
+decode rs = xxxxx rt = xxxxx control = 1000101001
+Executeb branchPC=xxxxx Extended=xxxxx         x0         x         x
+WB  PCsrc=0
+WB  writeData=00000000000000000000000010000000 writeRegister=23 regWrite=1
+time=                7200 clk=1
+time=                7600 clk=0
+PC=00000000000000000000000000101000
+decode rs = xxxxx rt = xxxxx control = 1000101001
+Executeb branchPC=xxxxx Extended=xxxxx         x0         x         x
+WB  PCsrc=0
+WB  writeData=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx writeRegister= x regWrite=1
+time=                8000 clk=1
+time=                8400 clk=0
+PC=00000000000000000000000000101100
+decode rs = xxxxx rt = xxxxx control = 1000101001
+Executeb branchPC=xxxxx Extended=xxxxx         x0         x         x
+WB  PCsrc=0
+WB  writeData=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx writeRegister= x regWrite=1
+time=                8800 clk=1
+time=                9200 clk=0
+PC=00000000000000000000000000110000
+decode rs = xxxxx rt = xxxxx control = 1000101001
+Executeb branchPC=xxxxx Extended=xxxxx         x0         x         x
+WB  PCsrc=0
+WB  writeData=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx writeRegister= x regWrite=1
+time=                9600 clk=1
+time=               10000 clk=0
+PC=00000000000000000000000000110100
+decode rs = xxxxx rt = xxxxx control = 1000101001
+Executeb branchPC=xxxxx Extended=xxxxx         x0         x         x
+WB  PCsrc=0
+WB  writeData=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx writeRegister= x regWrite=1
+time=               10400 clk=1
+time=               10800 clk=0
+PC=00000000000000000000000000111000
+decode rs = xxxxx rt = xxxxx control = 1000101001
+Executeb branchPC=xxxxx Extended=xxxxx         x0         x         x
+WB  PCsrc=0
+WB  writeData=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx writeRegister= x regWrite=1
+time=               11200 clk=1
+time=               11600 clk=0
+PC=00000000000000000000000000111100
+decode rs = xxxxx rt = xxxxx control = 1000101001
+Executeb branchPC=xxxxx Extended=xxxxx         x0         x         x
+WB  PCsrc=0
+WB  writeData=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx writeRegister= x regWrite=1
+time=               12000 clk=1
+time=               12400 clk=0
+PC=00000000000000000000000001000000
+decode rs = xxxxx rt = xxxxx control = 1000101001
+Executeb branchPC=xxxxx Extended=xxxxx         x0         x         x
+WB  PCsrc=0
+WB  writeData=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx writeRegister= x regWrite=1
+time=               12800 clk=1
+time=               13200 clk=0
+PC=00000000000000000000000001000100
+decode rs = xxxxx rt = xxxxx control = 1000101001
+Executeb branchPC=xxxxx Extended=xxxxx         x0         x         x
+WB  PCsrc=0
+WB  writeData=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx writeRegister= x regWrite=1
+time=               13600 clk=1
+time=               14000 clk=0
+PC=00000000000000000000000001001000
+decode rs = xxxxx rt = xxxxx control = 1000101001
+Executeb branchPC=xxxxx Extended=xxxxx         x0         x         x
+WB  PCsrc=0
+WB  writeData=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx writeRegister= x regWrite=1
+time=               14400 clk=1
+time=               14800 clk=0
+Exiting VeriLogger Pro at simulation time 15000000
+0 Errors, 1 Warning
+Compile time = 0.01500, Load time = 1.28100, Execution time = 1.39100
+
+Normal exit
